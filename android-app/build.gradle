@@ -1,0 +1,14 @@
+dependencies {
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:32.2.0')
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+
+    // UI & Drawing
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.github.Dhaval2404:ColorPicker:2.1' // Example picker
+    
+    // 3D Rendering (For .glb/.obj conversion)
+    implementation 'com.google.ar.sceneform:assets:1.17.1'
+}
