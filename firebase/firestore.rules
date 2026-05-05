@@ -1,0 +1,9 @@
+/users/{userId}/
+  /avatar_config/
+    - gender: "male"
+    - points: { A: {x,y}, B: {x,y} ... }
+    - clothing: { shirtId: "blue_hoodie", scale: 1.2 }
+    - settings: { ghostMode: true, sensitivity: 0.8 }
+  /reactions/
+    - "com.whatsapp": "climb_rope"
+    - "battery_low": "panic_run"
